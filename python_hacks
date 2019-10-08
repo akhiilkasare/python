@@ -1,0 +1,26 @@
+#here are some of python hacks 
+
+#
+ list_items = ["framce","germany","england","belgium"]
+  print(list_items)
+  for i in list_items:
+      print(i,end="")
+ print(",".join(list_items))
+
+#reversed string
+
+ str = "HelloWorld"
+ for i in reversed(str):
+     print(i,end=" ")
+
+#printing bith list simultanieusly
+ a = [2,3,4,5,6,7]
+ b = [2,6,4,8,0,2]
+ for x,y in zip(a,b):
+     print(x,y,end=" ")
+
+#merging two dictionaries
+ a = {'x':20,'y':30}
+ b = {'z':40,'c':50}
+ print({**a,**b})
+
